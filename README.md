@@ -51,7 +51,7 @@ database(function(data)
 
 	var user = users.have('email', 'gmail').get();
 	
-	var user = users.have('email', 'gmail').get();
+	var user = users.have('email', 'gmail').first();
 	
 	var user = users.new({
 	    username: "JohnDoe",
